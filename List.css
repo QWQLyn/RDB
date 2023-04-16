@@ -1,0 +1,76 @@
+#m1{
+   color: dimgrey;
+}
+
+#io{
+    position: relative;
+    width: 710px;
+    height: 30px;
+    border-radius: 30px;
+    border-color: rgb(3, 112, 75);
+    color: rgb(19, 33, 33);
+    border-style: solid;
+}
+#io:hover{
+    border-color: rgb(78, 231, 180);
+}
+#io:focus{
+    border-color: rgb(45, 148, 110);
+}
+#btnadd{
+    font-weight: bolder;
+    border-radius: 20px;
+    border-style:groove;
+    width: 60px;
+    height: 40px;
+    border-color: rgb(78, 231, 180);
+    background-color: rgb(3, 112, 75);
+    position: relative;
+
+}
+button{
+    width: 60px;
+    height: 30px;
+    border-style:ridge;
+    border-radius: 20px;
+    border-color: rgb(78, 231, 180);
+    background-color: rgb(3, 112, 75);
+}
+#btnadd:hover,button:hover{
+    background-color: rgb(78, 231, 180);
+    border-color: rgb(192, 240, 224);
+}
+#btnadd:active,button:active{
+    background-color: rgb(19, 75, 56);
+    color: rgb(55, 201, 152);
+}
+#List{
+    position: relative;
+    top: 120px;
+    width: auto;
+    padding-left: 8%;
+    padding-right: 8%;
+    background: linear-gradient(rgb(255, 255, 255)40%,rgb(207, 252, 190), rgb(249, 179, 212));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+li{
+   word-break:break-all;
+   list-style: decimal;
+   color: darkslategray;
+   font-weight: bolder;
+   line-height: 3;
+
+}
+header{
+    width: auto;
+    text-align: center;
+    padding-left: 17%;
+    padding-right: 17%;
+    position: fixed;
+    background-color: rgb(255, 255, 255);
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+}
